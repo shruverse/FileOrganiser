@@ -47,9 +47,17 @@ def get_file_category(file_extension):
     ext = file_extension.lower()
     
     # Define file type categories
-    image_types = {'.png', '.jpg', '.jpeg'}
-    document_types = {'.pdf', '.docx'}
-    media_types = {'.mp4', '.mp3'}
+    image_types = {
+        '.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg'
+    }
+
+    document_types = {
+        '.pdf', '.doc', '.docx', '.txt', '.xlsx', '.xls', '.ppt', '.pptx'
+    }
+
+    media_types = {
+        '.mp4', '.mkv', '.avi', '.mov', '.mp3', '.wav', '.flac'
+    }
     
     # Return appropriate category
     if ext in image_types:
