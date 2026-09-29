@@ -1,0 +1,12 @@
+*.egg
+*.egg-info/
+*.manifest
+*.pot
+*.py[cod]
+*.pyd
+*.so
+*.spec
+.installed.cfg
+dist/
+MANIFEST
+sdist/
